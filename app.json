@@ -1,0 +1,6 @@
+{
+  "name": "Graby on Heroku",
+  "description": "A Graby PHP app",
+  "repository": "https://github.com/s-nt-s/heroku-graby",
+  "addons": []
+}
