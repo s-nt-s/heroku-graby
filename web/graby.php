@@ -1,6 +1,6 @@
 <?php
+require_once("../vendor/autoload.php");
 if (array_key_exists("url", $_GET)) {
-    require_once("../vendor/autoload.php");
     use Graby\Graby;
     
     $article = $_GET['url'];
