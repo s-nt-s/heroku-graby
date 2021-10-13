@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff3ce770bc894ac1bf63aec0f575abd9",
+    "content-hash": "d926975c826e7cfc418bbf2300519015",
     "packages": [
         {
             "name": "fossar/htmlawed",
@@ -1131,7 +1131,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "7.2.24"
+        "php": "^7.2.24"
     },
     "platform-dev": []
 }
