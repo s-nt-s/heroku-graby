@@ -13,7 +13,7 @@ import sys
 from subprocess import check_output, STDOUT
 
 url = sys.argv[1]
-js = check_output(['./graby.php', url], stderr=STDOUT).decode('UTF-8')
+js = check_output(['./graby.php', url], stderr=STDOUT).decode(sys.stdout.encoding)
 js = json.loads(js)
 js = json.dumps(js, indent=2, sort_keys=True)
 print(js)
